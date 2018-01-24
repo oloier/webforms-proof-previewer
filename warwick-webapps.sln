@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "warwick-webapps", ".", "{F9FFC843-0772-4A8F-9901-F6BE4DDAEAE1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49606"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\work\warwick\warwick-webapps\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49606\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49606"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\work\warwick\warwick-webapps\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49606\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49606"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9FFC843-0772-4A8F-9901-F6BE4DDAEAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FFC843-0772-4A8F-9901-F6BE4DDAEAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CB1C46D-06BA-420A-A9E5-A4717C2FE6FA}
+	EndGlobalSection
+EndGlobal
