@@ -1,0 +1,55 @@
+﻿<%@ master language="vb" codefile="masterpage.master.vb" clientidmode="static" inherits="masterpage" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <title runat="server"></title>
+    
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <meta name="robots" content="index,follow" />
+    <meta name="Revisit-After" content="7 Days" />
+    <asp:contentplaceholder id="meta" runat="server"></asp:contentplaceholder>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/js/fancybox/fancybox.css" />
+    <asp:contentplaceholder id="styles" runat="server"></asp:contentplaceholder>
+</head>
+
+<body id="body" runat="server">
+<form id="form" runat="server" enctype="multipart/form-data" method="post">
+
+    <header>
+        <div class="group page">
+            <a href="/default.aspx" id="logo"><img src="/assets/img/logo.png" alt="Warwick Publishing" width="60" height="58"/>Warwick</a>
+        <span>
+                <a href="/view.aspx" class="button" style="background-color:orange; color:#000; text-shadow:0 1px 1px rgba(255,255,255,.75); float:right">Proofs Awaiting Approval</a>
+            </span>
+        </div>
+    </header>
+    
+    <div class="page group">
+        <section id="main">
+            <div id="reportMaster" visible="false" runat="server"></div>
+            <asp:contentplaceholder id="pagecontent" runat="server"></asp:contentplaceholder>
+        </section>
+        <a href="#form" class="backtop">Back to top</a>
+    </div>
+
+    <footer>
+        <p class="text-center">© <%=Date.Today.Year%> Warwick Publishing. All Rights Reserved. </p>
+    </footer>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/fancybox/fancybox.min.js"></script>
+
+    <asp:contentplaceholder id="scripts" runat="server"></asp:contentplaceholder>
+    
+    <div id="moby"></div>
+    <div class="freeze"><div class="loader"></div></div>
+</form>
+</body>
+</html>
